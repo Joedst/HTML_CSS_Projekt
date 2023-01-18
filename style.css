@@ -69,7 +69,7 @@
 
 
 .menu li a:hover{
-    box-shadow: 0 -5 0px #fff inset;
+    box-shadow: 0 -5px 0px #fff inset;
     padding: 35px 25px 45px 25px;    
 }
 
@@ -453,7 +453,7 @@ figcaption{
     .input-field {
         width: 400px;
         height: 40px;
-        margin-top: 20;
+        margin-top: 20px;
         padding-left: 1px;
         padding-right: 10px;
     }
