@@ -9,9 +9,9 @@ const customerMessageEl = document.getElementById('messageId');
 let myBtn = document.getElementById("idButton");
 
 
-myBtn.addEventListener('click', (e) => { //Grund till validering 
+myBtn.addEventListener('click', (e) => {
 
-    if (customerEmailEl.value === '' || customerEmailEl.value == null ) {
+    if (customerEmailEl.value === '' || customerEmailEl.value == null) {
         console.log("Button was clicked");
         console.log("User not entering contactable information")
         alert("Email have to be inserted so we may respond to you!");

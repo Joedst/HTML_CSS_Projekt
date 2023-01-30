@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Contact</title>
+    <script defer src="app.js"></script>
 </head>
 
 <body>
@@ -15,15 +16,14 @@
             <a href="#"></a>
             <h1> Capistrano Hotel</h1>
             <p><i>Costa del Sol</i></p>
-  </div>
-  
-  <div class="navigation">
-  
-    <input type="checkbox"
-    class="toggle-menu">
-        <div class="hamburger"></div>
-    
-    
+        </div>
+
+        <div class="navigation">
+
+            <input type="checkbox" class="toggle-menu">
+            <div class="hamburger"></div>
+
+
             <ul class="menu">
                 <li><a href="index.html">Home page</a></li>
                 <li>
@@ -34,68 +34,48 @@
                 </li>
             </ul>
         </div>
-        </header>
+    </header>
 
 
     <div class="contact-box">
+        <form action="/" method="GET">
 
-
-
-        <form>
-
-            <input type="text" class="input-field" placeholder="first name">
-            <input type="text" class="input-field" placeholder="last name">
-            <input type="text" class="input-field" placeholder="your email">
-            <input type="text" class="input-field" placeholder="your phone number">
+            <input type="text" class="input-field" placeholder="first name" id="customerFirstName">
+            <input type="text" class="input-field" placeholder="last name" id="customerLastName">
+            <input type="text" class="input-field" placeholder="your email" id="customerEmail">
+            <input type="text" class="input-field" placeholder="your phone number" id="customerPhone">
 
             <br>
-            
 
-            <textarea class="input-field" placeholder="your message">
+
+            <textarea class="input-field" placeholder="your message" id="customerMessageId">
                 </textarea>
-                <select name="options" id="options">
-                    <option value="Booking">New Booking</option>
-                    <option value="Booking">Cancellation</option>
-                    <option value="Booking">General Enquiry</option>
-                </select>
+            <select name="options" id="options">
+                <option value="Booking">New Booking</option>
+                <option value="Booking">Cancellation</option>
+                <option value="Booking">General Enquiry</option>
+            </select>
             <button type="button" class="btn" id="idButton">Send Message</button>
-
-<script>
-const myBtn = document.getElementById("idButton");
-
-myBtn.addEventListener("click", function(e){
-console.log("User tried to send message");
-myBtn.innerHTML = "<h3> Message was sent!"
-});
-</script>
 
         </form>
     </div>
 
 
-<div class="our-contact-info">
+    <div class="our-contact-info">
 
-    
+        <ul>
+            <li>
+                <b>Adress: Nerja, San Juan Capistrano, Via Real 78</b>
+            </li>
+            <li>
+                <b>Telephone: +46764555754</b>
+            </li>
+            <li>
+                <b>Email: Capistranohotel@gmail.com</b>
+            </li>
 
-<h2></h2>
-
-    <ul>
-
-
-        <li><b>Adress: Nerja, San Juan Capistrano, Via Real 78</b>
-        </li>
-        <li><b>Telephone: +46764555754</b>
-        </li>
-
-        <li>
-            <b>Email: Capistranohotel@gmail.com</b>
-        </li>
-
-    </ul>
-
-
-
-</div>
+        </ul>
+    </div>
 
     <footer>
         <div class="footer">
