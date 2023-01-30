@@ -225,6 +225,19 @@ h2 {
 
 }
 
+.our-contact-info{
+        display: flex;
+        align-items:flex-end;
+        width: 500px;
+        height:auto;
+        
+        
+        background: rgb(7, 47, 80);
+        box-shadow: 0 0 0 lightblue;
+        color: white;
+
+}
+
 form {
     position: sticky;
     margin: 100px;

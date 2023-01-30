@@ -15,7 +15,6 @@
             <a href="#"></a>
             <h1> Capistrano Hotel</h1>
             <p><i>Costa del Sol</i></p>
-        </a>
   </div>
   
   <div class="navigation">
@@ -50,21 +49,53 @@
             <input type="text" class="input-field" placeholder="your phone number">
 
             <br>
-            <select name="options" id="options">
-                <b>Please select a message option:</b>
-                <option value="Booking">New Booking</option>
-                <option value="Booking">Cancellation</option>
-                <option value="Booking">General Enquiry</option>
-            </select>
+            
 
-            <textarea type="text" class="input-field" placeholder="your message">
+            <textarea class="input-field" placeholder="your message">
                 </textarea>
-            <button type="button" class="btn">Send Message</button>
+                <select name="options" id="options">
+                    <option value="Booking">New Booking</option>
+                    <option value="Booking">Cancellation</option>
+                    <option value="Booking">General Enquiry</option>
+                </select>
+            <button type="button" class="btn" id="idButton">Send Message</button>
 
+<script>
+const myBtn = document.getElementById("idButton");
+
+myBtn.addEventListener("click", function(e){
+console.log("User tried to send message");
+myBtn.innerHTML = "<h3> Message was sent!"
+});
+</script>
 
         </form>
-
     </div>
+
+
+<div class="our-contact-info">
+
+    
+
+<h2></h2>
+
+    <ul>
+
+
+        <li><b>Adress: Nerja, San Juan Capistrano, Via Real 78</b>
+        </li>
+        <li><b>Telephone: +46764555754</b>
+        </li>
+
+        <li>
+            <b>Email: Capistranohotel@gmail.com</b>
+        </li>
+
+    </ul>
+
+
+
+</div>
 
     <footer>
         <div class="footer">
@@ -79,6 +110,8 @@
                 </li>
 
             </ul>
+
+        </div>
     </footer>
 
 
